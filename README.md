@@ -9,11 +9,11 @@ A RAG-based Q&A tool for financial reports (PDF), with conversational memory and
 
 ## 2. Clone / place the project
 
-Put `equity_analyst_app.py` in its own project folder, e.g.:
+Put `app.py` in its own project folder, e.g.:
 
 ```
 equity-analyst/
-└── equity_analyst_app.py
+└── app.py
 ```
 
 ## 3. Create and activate a virtual environment (recommended)
@@ -60,7 +60,7 @@ Create a `.streamlit` folder inside your project, and inside it a `secrets.toml`
 
 ```
 equity-analyst/
-├── equity_analyst_app.py
+├── app.py
 ├── requirements.txt
 └── .streamlit/
     └── secrets.toml
@@ -82,7 +82,7 @@ echo "venv/" >> .gitignore
 ## 6. Run the app
 
 ```bash
-streamlit run equity_analyst_app.py
+streamlit run app.py
 ```
 
 This opens the app automatically in your browser, usually at `http://localhost:8501`.
